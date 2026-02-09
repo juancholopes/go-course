@@ -1,5 +1,3 @@
-package main
+package test
 
-func main() {
-	print("Hello another main")
-}
+const TestEnpoint = "/test/api"
