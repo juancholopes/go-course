@@ -3,7 +3,7 @@ package functions
 /*
 Las funciones pueden recibir mas de dos
 parámetros y retornar mas de dos resultados
-*/ 
+*/
 const benefitForWork = 0.04
 const taxesCalculated = 0.03
 
