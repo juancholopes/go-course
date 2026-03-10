@@ -18,6 +18,6 @@ const Multiplicador = 100000 // Go lo que en escencia hace en tiempo de compilac
 
 func Calcular() int {
 	// INICIALIZADOR
-	Numero := 10 // Infiere el tipo pero solo se usa dentro del scope de funciones no el scope global
-	return Numero * Multiplicador / AnotherNumber * Pointer - y // Aquí en realidad Go remplaza por el valor 10000 o el valor que tenga asignado
+	Numero := 10                                          // Infiere el tipo pero solo se usa dentro del scope de funciones no el scope global
+	return Numero*Multiplicador/AnotherNumber*Pointer - y // Aquí en realidad Go remplaza por el valor 10000 o el valor que tenga asignado
 }

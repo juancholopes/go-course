@@ -24,6 +24,8 @@ func main() {
 	fmt.Println("VISIBILITY")
 	fmt.Println("Usar funciones privadas:")
 	fmt.Println(visibility.UsarVarloresPrivados())
+	fmt.Println("Exportar función privada:")
+	fmt.Println(visibility.ExportarFuncionPrivada())
 	// Extraer valores de  una función que retorna multiples valores a la vez
 	miEnteroPrivado, miSlicePrivado, miMapaPrivado, miArrayPrivado := visibility.UsarVarloresPrivados()
 
