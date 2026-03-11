@@ -16,6 +16,7 @@ var Pointer = AnotherNumber
 
 const Multiplicador = 100000 // Go lo que en escencia hace en tiempo de compilación es copiar y pegar ese valor en el lugar donde se llame la variable
 
+// Función de operación de variables normal con variables globales y locales
 func Calcular() int {
 	// INICIALIZADOR
 	Numero := 10                                          // Infiere el tipo pero solo se usa dentro del scope de funciones no el scope global
